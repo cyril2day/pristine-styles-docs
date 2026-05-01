@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      pristine-styles:
+        specifier: 0.1.1
+        version: 0.1.1
       ramda:
         specifier: ^0.30.1
         version: 0.30.1
@@ -955,6 +958,9 @@ packages:
   pretty-format@29.7.0:
     resolution: {integrity: sha512-Pdlw/oPxN+aXdmM9R00JVC9WVFoCLTKJvDVLgmJ+qAffBMxsV85l/Lu7sNx4zSzPyoL2euImuEwHhOXdEgNFZQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+
+  pristine-styles@0.1.1:
+    resolution: {integrity: sha512-WQ+jcZJsKHat4nxVhW6rgvz2VnuMOQuyP1oMwXnPn0x/RHcTmB/AwLljmFVmw/8OU31R+N7F71F77qYzb7gMCA==}
 
   proto-list@1.2.4:
     resolution: {integrity: sha512-vtK/94akxsTMhe0/cbfpR+syPuszcuwhqVjJq26CuNDgFGj682oRBXOP5MJpv2r7JtE8MsiepGIqvvOTBwn2vA==}
@@ -2048,6 +2054,8 @@ snapshots:
       '@jest/schemas': 29.6.3
       ansi-styles: 5.2.0
       react-is: 18.3.1
+
+  pristine-styles@0.1.1: {}
 
   proto-list@1.2.4: {}
 
