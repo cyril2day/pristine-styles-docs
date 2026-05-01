@@ -30,7 +30,7 @@ const props = withDefaults(defineProps<Props>(), {
 </template>
 
 <style scoped lang="scss">
-@use '../../pristine-styles/scss/index' as ps;
+@use 'pristine-styles/scss' as ps;
 
 .color-swatch {
   display: flex;

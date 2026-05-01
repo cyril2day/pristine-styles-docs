@@ -49,10 +49,10 @@ const CSS_PATH: Integration = {
 const SASS_PATH: Integration = {
   title: 'Using Sass',
   description:
-    'Import the Sass source to get breakpoint helpers and token variables. Gives you more control.',
+    'Import the Sass source from the published package to get breakpoint helpers and token variables. Gives you more control.',
   filename: 'styles.scss',
   code: `
-    @use "pristine-styles/scss/index" as ps;
+    @use "pristine-styles/scss" as ps;
 
     body {
       background: var(--color-background);
@@ -161,7 +161,7 @@ const BREAKPOINTS = [
     <!-- Breakpoint Reference -->
     <div class="subsection">
       <h3>Responsive Breakpoints</h3>
-      <p class="subsection-description"">
+      <p class="subsection-description">
         Use with the 
           <code class="subsection-description__code">
             @include ps.breakpoint-up()
@@ -197,7 +197,7 @@ const BREAKPOINTS = [
 </template>
 
 <style scoped lang="scss">
-@use '../../pristine-styles/scss/index' as ps;
+@use 'pristine-styles/scss' as ps;
 
 .subsection {
   display: grid;

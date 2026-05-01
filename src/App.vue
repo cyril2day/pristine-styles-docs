@@ -106,7 +106,7 @@ provide('activeSection', activeSection)
 </template>
 
 <style scoped lang="scss">
-@use '../pristine-styles/scss/index' as ps;
+@use 'pristine-styles/scss' as ps;
 
 .app-shell {
   display: flex;

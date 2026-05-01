@@ -11,9 +11,10 @@ export default defineConfig({
   base: './',
   plugins: [vue()],
   resolve: {
-    alias: {
-      '@': resolve(repoRoot, 'src')
-    }
+    alias: [
+      { find: '@', replacement: resolve(repoRoot, 'src') },
+      { find: /pristine-styles\/scss\/index(\.scss)?$/, replacement: 'pristine-styles/scss' }
+    ]
   },
   server: {
     fs: {
